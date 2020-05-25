@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLFOLDER">
+            <Component Id="cmp17F317F3B29DC444A1747D8270D1742C" Guid="*">
+                <File Id="fil203B1145C39613A695DA5653C74DA7A0" KeyPath="yes" Source="$(var.OutputHarvestPath)\PackageContents.xml" />
+            </Component>
+            <Directory Id="dir97876F8F53187814DA9C036CB67DE3B6" Name="Contents">
+                <Component Id="cmp330EB82604E52401BDDAD970E6616F57" Guid="*">
+                    <File Id="filCD58F6D7DD9793D52069D7559B53683B" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\coolOrange.FeatureMigratorAddin.Inventor.addin" />
+                </Component>
+                <Component Id="cmp112F21F09C44EF0A0DF9D67A6FE8CE14" Guid="*">
+                    <File Id="filAB4020274C321CAFF40EEE27EFFA6B7A" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\FeatureMigratorAddin.dll" />
+                </Component>
+                <Component Id="cmp4E57C6DEE95902DD234C76E3328E4700" Guid="*">
+                    <File Id="fil481F8EF815DD01A783B399EED36D99FE" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\FeatureMigratorAddin.dll.log4net" />
+                </Component>
+                <Component Id="cmpB5D6569CDD1B88709BB0E5AEBE208A96" Guid="*">
+                    <File Id="filFF549950B704B9AE4F809B3CFB069EF3" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\FeatureMigratorLib.dll" />
+                </Component>
+                <Component Id="cmpE55AE287F3CB154D811353507EE96D51" Guid="*">
+                    <File Id="filC8EDA11CBC2004603F2AB5C5088DAFAD" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\log4net.dll" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="FEATUREMIGRATOR_OUTPUT">
+            <ComponentRef Id="cmp17F317F3B29DC444A1747D8270D1742C" />
+            <ComponentRef Id="cmp330EB82604E52401BDDAD970E6616F57" />
+            <ComponentRef Id="cmp112F21F09C44EF0A0DF9D67A6FE8CE14" />
+            <ComponentRef Id="cmp4E57C6DEE95902DD234C76E3328E4700" />
+            <ComponentRef Id="cmpB5D6569CDD1B88709BB0E5AEBE208A96" />
+            <ComponentRef Id="cmpE55AE287F3CB154D811353507EE96D51" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

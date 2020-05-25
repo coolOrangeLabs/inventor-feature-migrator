@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="FeatureMigratorAddin" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{4418349c-99b0-4e77-8769-3ffd7322c9f3}" 
+		progid="FeatureMigratorAddin.StandardAddInServer" 
+		threadingModel="Both" 
+		name="FeatureMigratorAddin.StandardAddInServer" 
+		runtimeVersion=""></clrClass>
+
+  <file name="FeatureMigratorAddin.dll" hashalg="SHA1"></file>
+
+</assembly>

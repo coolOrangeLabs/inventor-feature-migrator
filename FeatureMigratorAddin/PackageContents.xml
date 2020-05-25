@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Inventor" ProductType="Application" Name="coolOrange featureMigrator" AppVersion="19.0.02" Description="The FeatureMigrator tool has been developed to allow Autodesk® Inventor® users to more easily create part features from assembly features." Author="coolOrange s.r.l" Icon="./Contents/Documentation/Resources/resized_icon6.ico" AppNameSpace="appstore.exchange.autodesk.com" OnlineDocumentation="www.coolorange.com" HelpFile="./Contents/Documentation/coolOrangefeatureMigrator.html" ProductCode="{CC50C96C-7B2B-412B-A069-6736279D1859}" UpgradeCode="{5311986A-137E-4FC3-8BDC-04DFC34081B7}" SupportedLocales="Enu" FriendlyVersion="19.0.02">
+  <CompanyDetails Name="coolOrange s.r.l" Url="www.coolorange.com" Email="support@coolorange.com" />
+  <Components Description="Contents parts">
+    <RuntimeRequirements OS="Win32|Win64" Platform="AIP"/>
+    <ComponentEntry AppName="coolOrangefeatureMigrator" Version="19.0.02" ModuleName="./Contents/coolOrange.FeatureMigratorAddin.Inventor.addin" AppDescription="The FeatureMigrator tool has been developed to allow Autodesk® Inventor® users to more easily create part features from assembly features." />
+    <ComponentEntry AppName="coolOrangefeatureMigrator" Version="19.0.02" ModuleName="./Contents/FeatureMigratorAddin.dll" AppDescription="The FeatureMigrator tool has been developed to allow Autodesk® Inventor® users to more easily create part features from assembly features." />
+    <ComponentEntry AppName="coolOrangefeatureMigrator" Version="19.0.02" ModuleName="./Contents/FeatureMigratorLib.dll" AppDescription="The FeatureMigrator tool has been developed to allow Autodesk® Inventor® users to more easily create part features from assembly features." />
+    <ComponentEntry AppName="coolOrangefeatureMigrator" Version="19.0.02" ModuleName="./Contents/log4net.dll" AppDescription="The FeatureMigrator tool has been developed to allow Autodesk® Inventor® users to more easily create part features from assembly features." />
+    <ComponentEntry AppName="coolOrangefeatureMigrator" Version="19.0.02" ModuleName="./Contents/Log4PostSharp.dll" AppDescription="The FeatureMigrator tool has been developed to allow Autodesk® Inventor® users to more easily create part features from assembly features." />
+    <ComponentEntry AppName="coolOrangefeatureMigrator" Version="19.0.02" ModuleName="./Contents/PostSharp.dll" AppDescription="The FeatureMigrator tool has been developed to allow Autodesk® Inventor® users to more easily create part features from assembly features." />
+  </Components>
+</ApplicationPackage>
